@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Paulo Pinho — Senior Full-Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#16233f"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4f7bff"/>
+      <stop offset="1" stop-color="#8ab4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1080" cy="90" r="180" fill="#1f4ed8" opacity="0.18"/>
+  <circle cx="120" cy="560" r="150" fill="#4f7bff" opacity="0.12"/>
+  <text x="80" y="250" font-family="Helvetica, Arial, sans-serif" font-size="76" font-weight="700" fill="#ffffff">Paulo Pinho</text>
+  <rect x="80" y="285" width="150" height="8" rx="4" fill="url(#bar)"/>
+  <text x="80" y="360" font-family="Helvetica, Arial, sans-serif" font-size="40" font-weight="600" fill="#c7d6ff">Senior Full-Stack Developer</text>
+  <text x="80" y="415" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#9fb0d0">React · Next.js · Node.js · .NET · Laravel · LangChain / RAG</text>
+  <text x="80" y="545" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#7f8fb0">10+ years · Fintech, AI &amp; Blockchain · Remote worldwide</text>
+  <text x="80" y="585" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#5f7093">pauloedspinho20@gmail.com · linkedin.com/in/pauloedspinho</text>
+</svg>

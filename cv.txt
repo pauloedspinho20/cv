@@ -1,0 +1,93 @@
+PAULO PINHO
+Senior Full-Stack Developer (AI & Web Platforms)
+Also referred to as: Full-Stack Engineer / Software Engineer / Web Developer / AI Engineer
+Porto, Portugal | +351 917 432 801 | pauloedspinho20@gmail.com
+linkedin.com/in/pauloedspinho | github.com/pauloedspinho20 | hotdogtor.com
+Open to remote roles worldwide (CET/GMT+1)
+EU work authorisation (no sponsorship) | Portuguese (native), English (professional)
+
+SUMMARY
+Senior Full-Stack Developer with 10+ years designing, building and deploying
+scalable web applications across fintech, AI, blockchain, e-commerce and
+entertainment. Expert in modern JavaScript/TypeScript architectures (React,
+Next.js, Vue.js, Angular) backed by extensive backend experience in Node.js,
+PHP/Laravel, ASP.NET Core and SQL data modelling. Ships production LLM features
+with LangChain, RAG and WebSockets, and uses agentic AI workflows for software
+development. Strong on performance, Core Web Vitals, code review and mentoring.
+
+TECHNICAL SKILLS
+Languages: TypeScript, JavaScript (ES6+), C#, PHP, Python, SQL, HTML5, CSS3
+Frontend: React.js, Next.js, Vue.js, Angular, Tailwind CSS, SASS, Bootstrap,
+  jQuery, Storybook
+Backend: Node.js, PHP, Laravel, ASP.NET / .NET Core, RESTful APIs, GraphQL,
+  WebSockets
+AI & Data: LangChain, RAG, LLM API integration, vector databases, prompt
+  engineering, agentic development workflows, SQL Server, MySQL,
+  MongoDB, MariaDB, SQLite
+Cloud & DevOps: Docker, AWS, Azure, Apache, Jenkins, CI/CD pipelines,
+  Git, Agile/Scrum
+Testing: Jest, Playwright, Cypress, Storybook
+Creative & 3D: Three.js, WebGL, WebGPU, WGSL, TSL, GSAP, D3.js, p5.js,
+  real-time audio, Figma, Photoshop, Illustrator
+
+PROFESSIONAL EXPERIENCE
+
+Senior Full-Stack Developer | Miew | Porto, Portugal
+May 2024 - Present
+- Lead frontend architecture for enterprise-grade fintech and AI platforms
+  (daskapital.eu, koltena.com), owning delivery from concept to production.
+- Shipped real-time conversational AI interfaces using LangChain + RAG +
+  WebSockets, streaming low-latency LLM responses to production users.
+- Applied agentic AI development workflows to accelerate delivery and raise
+  code quality across the team.
+- Established code-review standards and mentored junior engineers and trainees,
+  accelerating onboarding and shipping velocity.
+
+Freelance Full-Stack Developer
+September 2023 - May 2024
+- Designed and deployed full-stack web applications for B2B clients using
+  Next.js, TypeScript and modular CMS backends.
+- Launched hotdogtor.com, an interactive WebGL/WebGPU portfolio with real-time
+  rendering, scroll-driven camera navigation and audio reactivity, held at 60fps
+  across devices.
+- Advised startups on frontend performance, improving Core Web Vitals by
+  25-40+ points and increasing organic traffic on key pages.
+
+Senior Frontend Developer | RealFevr | Lisbon, Portugal
+September 2021 - September 2023
+- Built high-concurrency, state-heavy blockchain marketplace platforms with
+  React.js + Next.js, supporting thousands of daily active users and complex
+  state management.
+- Architected secure, multi-step client onboarding and transactional dashboard
+  flows for high-traffic digital collectible products.
+- Translated complex product requirements into polished, responsive interface
+  flows built for intense concurrent load.
+
+Senior Frontend Developer | Diamond by BOLD | Lisbon, Portugal
+November 2020 - September 2021
+- Built highly responsive applications with Vue.js, React.js and PHP/Laravel,
+  bridging complex backend data with modern frontend frameworks.
+- Engineered headless CMS solutions and customised e-commerce architectures.
+
+Frontend Web Developer | Braver | Aveiro, Portugal
+April 2018 - November 2020
+- Developed high-traffic web portals for major national entertainment and sports
+  brands, including rfmsomnii.com and afatv.pt.
+- Architected custom Laravel and PHP solutions engineered to withstand massive
+  traffic spikes during festival ticket launch windows.
+
+Software Developer | Prologica | Aveiro, Portugal
+November 2015 - April 2018
+- Engineered backend business logic with ASP.NET and .NET Core Web APIs.
+- Designed relational database schemas, stored procedures and data models in
+  SQL Server and MySQL.
+
+SELECTED PROJECTS
+hotdogtor.com - Interactive 3D portfolio (WebGL/WebGPU, WebSockets, GSAP)
+daskapital.eu - Fintech platform (Next.js, TypeScript)
+koltena.com - AI platform with streaming LLM interfaces (LangChain, RAG)
+mercadobolhao.pt, nonprofitcounsel.com, eosiq.com, vilacainteriores.com
+
+EDUCATION
+Bachelor in Information Systems Technologies and Programming
+Universidade de Aveiro, 2014 - 2016
