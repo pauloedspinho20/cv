@@ -19,11 +19,14 @@ TECHNICAL SKILLS
 Languages: TypeScript, JavaScript (ES6+), C#, PHP, Python, SQL, HTML5, CSS3
 Frontend: React.js, Next.js, Vue.js, Angular, Tailwind CSS, SASS, Bootstrap,
   jQuery, Storybook
-Backend: Node.js, PHP, Laravel, ASP.NET / .NET Core, RESTful APIs, GraphQL,
-  WebSockets
-AI & Data: LangChain, RAG, LLM API integration, vector databases, prompt
-  engineering, agentic development workflows, SQL Server, MySQL,
-  MongoDB, MariaDB, SQLite
+Backend: Node.js, Python, PHP, Laravel, ASP.NET / .NET Core, RESTful APIs,
+  GraphQL, WebSockets
+AI Engineering: FastAPI, LangChain, LLM API integration (OpenAI, Anthropic),
+  RAG & retrieval pipelines, embeddings & semantic search, vector databases,
+  prompt engineering, function calling & tool use, agentic workflows,
+  RAG evaluation, streaming responses (SSE, WebSockets)
+Data & Storage: SQL Server, MySQL, MongoDB, MariaDB, SQLite, SQL & relational
+  data modelling
 Cloud & DevOps: Docker, AWS, Azure, Apache, Jenkins, CI/CD pipelines,
   Git, Agile/Scrum
 Testing: Jest, Playwright, Cypress, Storybook

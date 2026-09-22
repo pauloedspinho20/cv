@@ -1,0 +1,83 @@
+PAULO PINHO
+Senior Full-Stack Developer — AI & Web Platforms
+Porto, Portugal | +351 917 432 801 | pauloedspinho20@gmail.com
+linkedin.com/in/pauloedspinho | github.com/pauloedspinho20 | hotdogtor.com
+
+22 September 2026
+
+Dear [Hiring Manager],
+
+I am applying for the [Role Title] position at [Company]. I am a full-stack
+developer with 10+ years building and shipping web platforms in fintech, AI,
+blockchain, e-commerce and entertainment, and I work end to end — React,
+Next.js and TypeScript on the front end; Node.js, PHP/Laravel and ASP.NET Core
+on the back end; SQL and data modelling underneath.
+
+Two things I would bring to [Company] from day one. First, production AI
+experience, not just AI enthusiasm: at Miew I build real-time conversational
+interfaces with LangChain, RAG and WebSockets, streaming low-latency LLM
+responses to production users on fintech and AI platforms such as daskapital.eu
+and koltena.com, and I have adopted agentic AI workflows to ship faster without
+lowering the bar on code quality.
+
+Second, the range to own a feature from the database to the pixels. My career
+began in backend and data — designing schemas and building .NET/SQL systems at
+Prologica, then high-traffic PHP/Laravel portals at Braver that had to withstand
+festival ticket-launch spikes. That grounding is why I can design the data model
+and the interface, and why I care about both correctness and frame rate. At
+RealFevr I built high-concurrency, state-heavy React/Next.js marketplaces for
+thousands of daily active users, and as a freelancer I have improved clients'
+Core Web Vitals by 25-40+ points. I also build for craft and performance:
+hotdogtor.com is a live WebGL/WebGPU portfolio I designed and shipped, rendering
+in real time and holding 60fps across devices.
+
+I am looking for a senior full-stack role where I can own delivery, mentor other
+engineers — I set code-review standards and mentor junior engineers and trainees
+at Miew — and keep learning at the AI edge. I am based in Porto (CET/GMT+1), I am
+an EU citizen so no sponsorship is required, and I work well with distributed
+teams across time zones.
+
+I would welcome the opportunity to walk you through my work and talk about where
+[Company] is headed. Thank you for your time and consideration.
+
+Warm regards,
+Paulo Pinho
+Senior Full-Stack Developer · pauloedspinho20@gmail.com · +351 917 432 801
+
+-------------------------------------------------------------------------------
+HOW TO TAILOR (do this for every application — 3 minutes)
+
+1. Replace [Hiring Manager] with a real name. If unknown: "Dear Hiring Team".
+2. Replace [Role Title] with the EXACT title from the job post.
+3. In paragraph 3, add one sentence that mirrors a requirement from the job ad,
+   using their wording (e.g. "Your mention of event-driven architecture maps to
+   the real-time WebSocket streaming work I do at Miew.").
+4. Change the closing paragraph to name one specific thing about them.
+5. Keep it to ONE page. Never send the same letter twice.
+
+-------------------------------------------------------------------------------
+ALTERNATE OPENING LINES
+
+Target is fintech:
+  "I am applying for the [Role Title] at [Company]. I have spent the last two
+  years building production fintech and AI platforms, and I would like to bring
+  that end-to-end delivery to your team."
+
+Target is AI-focused:
+  "I am applying for the [Role Title] at [Company]. I ship production LLM
+  features — not demos — and I would like to do that at [Company]."
+
+Target is a startup / small team:
+  "I am applying for the [Role Title] at [Company]. I have worked in both small
+  and large teams and across every stage of a web product, from concept and
+  design to testing, delivery and client communication."
+
+Target is enterprise / .NET-heavy:
+  "I am applying for the [Role Title] at [Company]. My career started in
+  backend and data with ASP.NET, .NET Core and SQL Server, and I now pair that
+  foundation with modern React and Next.js front ends."
+
+-------------------------------------------------------------------------------
+RULE OF THUMB
+A cover letter should do exactly three things: say which role, prove you are
+unusually well matched for it, and ask for a conversation. Cut everything else.
