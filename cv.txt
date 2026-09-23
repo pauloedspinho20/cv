@@ -15,6 +15,14 @@ PHP/Laravel, ASP.NET Core and SQL data modelling. Ships production LLM features
 with LangChain, RAG and WebSockets, and uses agentic AI workflows for software
 development. Strong on performance, Core Web Vitals, code review and mentoring.
 
+HIGHLIGHTS
+- 10+ years building and shipping production web platforms across fintech, AI,
+  blockchain, e-commerce and entertainment.
+- Shipped real-time LLM features (LangChain, RAG, WebSockets) to production users.
+- Improved Core Web Vitals by 25-40+ points on client projects.
+- Built high-traffic React/Next.js marketplaces serving thousands of daily active
+  users.
+
 TECHNICAL SKILLS
 Languages: TypeScript, JavaScript (ES6+), C#, PHP, Python, SQL, HTML5, CSS3
 Frontend: React.js, Next.js, Vue.js, Angular, Tailwind CSS, SASS, Bootstrap,
@@ -37,12 +45,13 @@ PROFESSIONAL EXPERIENCE
 
 Senior Full-Stack Developer | Miew | Porto, Portugal
 May 2024 - Present
-- Lead frontend architecture for enterprise-grade fintech and AI platforms
-  (daskapital.eu, koltena.com), owning delivery from concept to production.
+- Lead full-stack architecture and delivery for two enterprise-grade fintech and
+  AI platforms (daskapital.eu, koltena.com), owning the product from concept to
+  production.
 - Shipped real-time conversational AI interfaces using LangChain + RAG +
   WebSockets, streaming low-latency LLM responses to production users.
-- Applied agentic AI development workflows to accelerate delivery and raise
-  code quality across the team.
+- Drove adoption of agentic AI development workflows, accelerating delivery and
+  raising code quality across the team.
 - Established code-review standards and mentored junior engineers and trainees,
   accelerating onboarding and shipping velocity.
 
@@ -53,7 +62,7 @@ September 2023 - May 2024
 - Launched hotdogtor.com, an interactive WebGL/WebGPU portfolio with real-time
   rendering, scroll-driven camera navigation and audio reactivity, held at 60fps
   across devices.
-- Advised startups on frontend performance, improving Core Web Vitals by
+- Advised startups on web performance, improving Core Web Vitals by
   25-40+ points and increasing organic traffic on key pages.
 
 Senior Frontend Developer | RealFevr | Lisbon, Portugal
@@ -76,7 +85,7 @@ Frontend Web Developer | Braver | Aveiro, Portugal
 April 2018 - November 2020
 - Developed high-traffic web portals for major national entertainment and sports
   brands, including rfmsomnii.com and afatv.pt.
-- Architected custom Laravel and PHP solutions engineered to withstand massive
+- Architected custom Laravel and PHP solutions that withstood massive
   traffic spikes during festival ticket launch windows.
 
 Software Developer | Prologica | Aveiro, Portugal

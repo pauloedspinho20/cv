@@ -3,7 +3,7 @@
 Thumbs.db
 *~
 
-# Local-only tools — never publish these.
+# Local-only tools: never publish these.
 # Keeping them out of git guarantees they can never be served by GitHub Pages.
 cover-letter-studio/
 cv-evaluator/
