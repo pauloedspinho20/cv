@@ -1,0 +1,169 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Serve: project (localhost:8000)",
+      "detail": "Serves the repo root. CV site → /  ·  Cover Letter Studio → /cover-letter-studio/  ·  CV Evaluator → /cv-evaluator/  (http://localhost:8000)",
+      "type": "shell",
+      "command": "python3 -m http.server 8000",
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "panel": "dedicated", "clear": true, "close": false },
+      "runOptions": { "instanceLimit": 1 },
+      "problemMatcher": {
+        "owner": "python",
+        "pattern": [
+          { "regexp": "^\\s*File \"(.*)\", line (\\d+).*$", "file": 1, "line": 2 }
+        ],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Serving HTTP on",
+          "endsPattern": "Serving HTTP on"
+        }
+      }
+    },
+    {
+      "label": "Serve: project + open CV site",
+      "detail": "Starts the server and opens http://localhost:8000/",
+      "dependsOn": "Serve: project (localhost:8000)",
+      "dependsOrder": "parallel",
+      "type": "shell",
+      "command": "sleep 1 && open http://localhost:8000/",
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent", "panel": "shared", "clear": false }
+    },
+    {
+      "label": "Serve: project + open Cover Letter Studio",
+      "detail": "Starts the server and opens http://localhost:8000/cover-letter-studio/",
+      "dependsOn": "Serve: project (localhost:8000)",
+      "dependsOrder": "parallel",
+      "type": "shell",
+      "command": "sleep 1 && open http://localhost:8000/cover-letter-studio/",
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent", "panel": "shared", "clear": false }
+    },
+    {
+      "label": "Serve: project + open CV Evaluator",
+      "detail": "Starts the server and opens http://localhost:8000/cv-evaluator/",
+      "dependsOn": "Serve: project (localhost:8000)",
+      "dependsOrder": "parallel",
+      "type": "shell",
+      "command": "sleep 1 && open http://localhost:8000/cv-evaluator/",
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent", "panel": "shared", "clear": false }
+    },
+    {
+      "label": "Open: Cover Letter Studio (no server)",
+      "detail": "Opens the studio directly from disk (works without a server).",
+      "type": "shell",
+      "command": "open \"${workspaceFolder}/cover-letter-studio/index.html\"",
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent" }
+    },
+    {
+      "label": "Cover letter: generate (interactive)",
+      "detail": "Runs cover-letter/generate.py and prompts for role, company, etc.",
+      "type": "shell",
+      "command": "python3 cover-letter/generate.py",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "Cover letter: list opening styles",
+      "type": "shell",
+      "command": "python3 cover-letter/generate.py --list-flavors",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "Server: stop (port 8000)",
+      "type": "shell",
+      "command": "pkill -f \"http.server 8000\" && echo \"Server stopped.\" || echo \"Nothing running on port 8000.\"",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "Open: live CV (GitHub Pages)",
+      "type": "shell",
+      "command": "open https://pauloedspinho20.github.io/cv/",
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent" }
+    },
+    {
+      "label": "Open: live frontend CV (GitHub Pages)",
+      "type": "shell",
+      "command": "open https://pauloedspinho20.github.io/cv/frontend/",
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent" }
+    },
+    {
+      "label": "Serve: project (port 8080)",
+      "detail": "Fallback server on http://localhost:8080 (use if port 8000 is busy).",
+      "type": "shell",
+      "command": "python3 -m http.server 8080",
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "presentation": { "reveal": "always", "panel": "dedicated", "clear": true, "close": false },
+      "runOptions": { "instanceLimit": 1 },
+      "problemMatcher": {
+        "owner": "python",
+        "pattern": [
+          { "regexp": "^\\s*File \"(.*)\", line (\\d+).*$", "file": 1, "line": 2 }
+        ],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Serving HTTP on",
+          "endsPattern": "Serving HTTP on"
+        }
+      }
+    },
+    {
+      "label": "Serve: project + open frontend CV",
+      "detail": "Starts the server and opens http://localhost:8000/frontend/",
+      "dependsOn": "Serve: project (localhost:8000)",
+      "dependsOrder": "parallel",
+      "type": "shell",
+      "command": "sleep 1 && open http://localhost:8000/frontend/",
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent", "panel": "shared", "clear": false }
+    },
+    {
+      "label": "Open: CV Evaluator (no server)",
+      "detail": "Opens the evaluator from disk. Note: the “Load my CV” button needs the local server.",
+      "type": "shell",
+      "command": "open \"${workspaceFolder}/cv-evaluator/index.html\"",
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent" }
+    },
+    {
+      "label": "Build: PDFs (CV + cover letter)",
+      "detail": "Regenerates both ATS-friendly PDFs with headless Chrome.",
+      "type": "shell",
+      "command": "./scripts/build-pdfs.sh",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "Build: CV PDF",
+      "detail": "Regenerates assets/Paulo-Pinho-Senior-FullStack-Developer-CV.pdf.",
+      "type": "shell",
+      "command": "./scripts/build-pdfs.sh cv",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "Build: cover letter PDF",
+      "detail": "Regenerates cover-letter/Paulo-Pinho-Cover-Letter.pdf.",
+      "type": "shell",
+      "command": "./scripts/build-pdfs.sh cover",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    }
+  ]
+}

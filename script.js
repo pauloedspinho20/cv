@@ -62,4 +62,15 @@
       targets.forEach(function (el) { el.classList.add("is-visible"); });
     }, 1500);
   }
+
+  // Local-only tools: surface links only when served locally, never on GitHub Pages.
+  var host = location.hostname;
+  if (host === "localhost" || host === "127.0.0.1") {
+    var footer = document.querySelector(".site-footer p");
+    if (footer) {
+      footer.insertAdjacentHTML("beforeend",
+        ' · <a href="./cv-evaluator/">CV Evaluator</a>' +
+        ' · <a href="./cover-letter-studio/">Cover Letter Studio</a>');
+    }
+  }
 })();

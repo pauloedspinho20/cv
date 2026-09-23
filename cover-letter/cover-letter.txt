@@ -1,7 +1,5 @@
 PAULO PINHO
-Senior Full-Stack Developer — AI & Web Platforms
-Porto, Portugal | +351 917 432 801 | pauloedspinho20@gmail.com
-linkedin.com/in/pauloedspinho | github.com/pauloedspinho20 | hotdogtor.com
+Senior Full-Stack Developer · AI & Web Platforms
 
 22 September 2026
 
@@ -9,7 +7,7 @@ Dear [Hiring Manager],
 
 I am applying for the [Role Title] position at [Company]. I am a full-stack
 developer with 10+ years building and shipping web platforms in fintech, AI,
-blockchain, e-commerce and entertainment, and I work end to end — React,
+blockchain, e-commerce and entertainment, and I work end to end: React,
 Next.js and TypeScript on the front end; Node.js, PHP/Laravel and ASP.NET Core
 on the back end; SQL and data modelling underneath.
 
@@ -21,7 +19,7 @@ and koltena.com, and I have adopted agentic AI workflows to ship faster without
 lowering the bar on code quality.
 
 Second, the range to own a feature from the database to the pixels. My career
-began in backend and data — designing schemas and building .NET/SQL systems at
+began in backend and data, designing schemas and building .NET/SQL systems at
 Prologica, then high-traffic PHP/Laravel portals at Braver that had to withstand
 festival ticket-launch spikes. That grounding is why I can design the data model
 and the interface, and why I care about both correctness and frame rate. At
@@ -32,8 +30,8 @@ hotdogtor.com is a live WebGL/WebGPU portfolio I designed and shipped, rendering
 in real time and holding 60fps across devices.
 
 I am looking for a senior full-stack role where I can own delivery, mentor other
-engineers — I set code-review standards and mentor junior engineers and trainees
-at Miew — and keep learning at the AI edge. I am based in Porto (CET/GMT+1), I am
+engineers (I set code-review standards and mentor junior engineers and trainees
+at Miew), and keep learning at the AI edge. I am based in Porto (CET/GMT+1), I am
 an EU citizen so no sponsorship is required, and I work well with distributed
 teams across time zones.
 
@@ -42,10 +40,12 @@ I would welcome the opportunity to walk you through my work and talk about where
 
 Warm regards,
 Paulo Pinho
-Senior Full-Stack Developer · pauloedspinho20@gmail.com · +351 917 432 801
+
+Porto, Portugal | +351 917 432 801 | pauloedspinho20@gmail.com
+linkedin.com/in/pauloedspinho | github.com/pauloedspinho20 | hotdogtor.com
 
 -------------------------------------------------------------------------------
-HOW TO TAILOR (do this for every application — 3 minutes)
+HOW TO TAILOR (bank about 3 minutes per application)
 
 1. Replace [Hiring Manager] with a real name. If unknown: "Dear Hiring Team".
 2. Replace [Role Title] with the EXACT title from the job post.
@@ -65,7 +65,7 @@ Target is fintech:
 
 Target is AI-focused:
   "I am applying for the [Role Title] at [Company]. I ship production LLM
-  features — not demos — and I would like to do that at [Company]."
+  features, not demos, and I would like to do that at [Company]."
 
 Target is a startup / small team:
   "I am applying for the [Role Title] at [Company]. I have worked in both small
@@ -76,6 +76,12 @@ Target is enterprise / .NET-heavy:
   "I am applying for the [Role Title] at [Company]. My career started in
   backend and data with ASP.NET, .NET Core and SQL Server, and I now pair that
   foundation with modern React and Next.js front ends."
+
+Target is WordPress / PHP:
+  "I am applying for the [Role Title] at [Company]. I build WordPress the modern
+  way: custom themes and plugins in PHP, plus headless WordPress front ends
+  driven by the REST API and React or Next.js, tuned for speed and Core Web
+  Vitals."
 
 -------------------------------------------------------------------------------
 RULE OF THUMB

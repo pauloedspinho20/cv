@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cover Letter — Paulo Pinho, Senior Full-Stack Developer</title>
+  <title>Cover Letter for Paulo Pinho, Senior Full-Stack Developer</title>
   <meta name="robots" content="noindex" />
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
   <style>
@@ -18,13 +18,13 @@
     .head { border-bottom: 2px solid var(--ink); padding-bottom: .5rem; margin-bottom: 1rem; }
     .head h1 { margin: 0; font-size: 18pt; letter-spacing: -.02em; }
     .head .role { margin: .1rem 0 .3rem; color: var(--accent); font-weight: 600; font-size: 11pt; }
-    .head .meta { margin: 0; font-size: 9pt; color: var(--soft); }
     .date { margin: 1rem 0 .6rem; font-size: 10pt; color: var(--soft); }
     .salut { margin: 0 0 .8rem; }
     p { margin: 0 0 .8rem; }
     .sig { margin-top: 1.2rem; }
     .sig strong { display: block; }
-    .sig span { font-size: 9.4pt; color: var(--soft); }
+    .contact { margin-top: 1.6rem; padding-top: .6rem; border-top: 1px solid var(--line); font-size: 9.4pt; color: var(--soft); }
+    .contact p { margin: 0 0 .1rem; }
     a { color: var(--accent); text-decoration: none; }
     .toolbar { width: min(100% - 2rem, 210mm); margin: 1rem auto 0; display: flex; gap: .5rem; justify-content: flex-end; }
     .toolbar a, .toolbar button {
@@ -34,10 +34,10 @@
     .toolbar .primary { background: var(--accent); color: #fff; border-color: transparent; }
     @media print {
       body { background: #fff; font-size: 10.6pt; line-height: 1.42; }
-      .page { width: 100%; margin: 0; padding: 0; box-shadow: none; border-radius: 0; }
+      .page { width: 100%; margin: 0; padding: 16mm; box-shadow: none; border-radius: 0; }
       .toolbar { display: none; }
       a { color: #000; }
-      @page { size: A4; margin: 16mm; }
+      @page { size: A4; margin: 0; }
     }
   </style>
 </head>
@@ -50,11 +50,7 @@
   <article class="page">
     <header class="head">
       <h1>Paulo Pinho</h1>
-      <p class="role">Senior Full-Stack Developer — AI &amp; Web Platforms</p>
-      <p class="meta">
-        Porto, Portugal · +351 917 432 801 · pauloedspinho20@gmail.com ·
-        linkedin.com/in/pauloedspinho · github.com/pauloedspinho20 · hotdogtor.com
-      </p>
+      <p class="role">Senior Full-Stack Developer · AI &amp; Web Platforms</p>
     </header>
 
     <p class="date">22 September 2026</p>
@@ -64,7 +60,7 @@
     <p>
       I am applying for the <strong>[Role Title]</strong> position at <strong>[Company]</strong>. I am a full-stack
       developer with <strong>10+ years</strong> building and shipping web platforms in fintech, AI, blockchain,
-      e-commerce and entertainment, and I work end to end — React, Next.js and TypeScript on the front end;
+      e-commerce and entertainment, and I work end to end: React, Next.js and TypeScript on the front end;
       Node.js, PHP/Laravel and ASP.NET&nbsp;Core on the back end; SQL and data modelling underneath.
     </p>
 
@@ -78,17 +74,17 @@
 
     <p>
       Second, the range to <strong>own a feature from the database to the pixels</strong>. My career began in backend
-      and data — designing schemas and building .NET/SQL systems at Prologica, then high-traffic PHP/Laravel portals
+      and data, designing schemas and building .NET/SQL systems at Prologica, then high-traffic PHP/Laravel portals
       at Braver that had to withstand festival ticket-launch spikes. That grounding is why I can design the data model
       and the interface, and why I care about both correctness and frame rate. At RealFevr I built high-concurrency,
       state-heavy React/Next.js marketplaces for thousands of daily active users, and as a freelancer I have improved
-      clients’ Core Web Vitals by 25–40+ points. I also build for craft and performance: hotdogtor.com is a live
+      clients’ Core Web Vitals by 25-40+ points. I also build for craft and performance: hotdogtor.com is a live
       WebGL/WebGPU portfolio I designed and shipped, rendering in real time and holding 60fps across devices.
     </p>
 
     <p>
-      I am looking for a senior full-stack role where I can own delivery, mentor other engineers — I set code-review
-      standards and mentor junior engineers and trainees at Miew — and keep learning at the AI edge. I am based in
+      I am looking for a senior full-stack role where I can own delivery, mentor other engineers (I set code-review
+      standards and mentor junior engineers and trainees at Miew), and keep learning at the AI edge. I am based in
       Porto (CET/GMT+1), I am an EU citizen so no sponsorship is required, and I work well with distributed teams
       across time zones.
     </p>
@@ -101,8 +97,12 @@
     <p class="sig">
       Warm regards,<br />
       <strong>Paulo Pinho</strong>
-      <span>Senior Full-Stack Developer · pauloedspinho20@gmail.com · +351 917 432 801</span>
     </p>
+
+    <footer class="contact">
+      <p>Porto, Portugal · +351 917 432 801 · pauloedspinho20@gmail.com</p>
+      <p>linkedin.com/in/pauloedspinho · github.com/pauloedspinho20 · hotdogtor.com</p>
+    </footer>
   </article>
 </body>
 </html>
